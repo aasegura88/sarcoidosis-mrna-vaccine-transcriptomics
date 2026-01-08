@@ -1,3 +1,29 @@
+# Data + derived objects (do not publish)
+data/raw/
+data/private/
+results/intermediate/
+**/*.rds
+**/*.RData
+**/*.rda
+**/*.qs
+**/*.h5ad
+**/*.h5seurat
+
+# Sequencing / large genomics formats
+**/*.fastq.gz
+**/*.fq.gz
+**/*.bam
+**/*.bai
+**/*.cram
+**/*.crai
+
+# OS / editor
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+.DS_Store
+
+
 # History files
 .Rhistory
 .Rapp.history
