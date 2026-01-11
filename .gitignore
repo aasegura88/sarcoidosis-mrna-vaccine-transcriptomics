@@ -26,3 +26,22 @@ results/intermediate/
 
 # --- OS ---
 .DS_Store
+
+# Local R config
+.Rprofile
+
+# Local environments (micromamba/conda/venv)
+env/
+
+# renv caches (keep renv.lock + renv/activate.R, ignore libraries/caches)
+renv/library/
+renv/staging/
+renv/python/
+renv/.cache/
+
+# Derived outputs (only track if intentionally public)
+data/derived/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db

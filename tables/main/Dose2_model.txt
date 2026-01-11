@@ -1,0 +1,1 @@
+dream formula: ~txgroup * visit + (1 | subject)
